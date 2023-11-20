@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-itemsw{
+    white-space: wrap;
+    width: 100%;
+    
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    outline: none;
+    overflow: hidden;
+
+}
+
+.electronics{
+    
+    color:wheat;
+    font-size: 2em;
+    
+}
+.all-item{
+      
+    flex-wrap: wrap;
+    white-space: wrap;
+    overflow: hidden;
+    
+    
+}
+.all-nav{
+    background-color: blue;
+    color: white;
+}
+.volume{
+    font-size:5em;
+    color: greenyellow;
+}
