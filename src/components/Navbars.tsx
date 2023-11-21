@@ -14,7 +14,7 @@ const Navbars= () => {
     <Row  className =" nav-item" >
 
 <div className=" all-nav p-3 col-md-4">
-<a className="  electronics navbar-brand text-white" href="#"><FaSatelliteDish />Ma Interested in the RECYCYLING JOB @oshodi</a>
+<a className="  electronics navbar-brand text-white" href="#"><FaSatelliteDish /> JOBBER </a>
   
 </div>
 <div className="all-nav p-3 col-md-8">
@@ -105,7 +105,7 @@ const Navbars= () => {
 
 <Nav className="navbar bg-white p-2 me-5">
              
-            <Nav className="d-flex justify-content-between">
+            <Nav className="d-flex justify-content-between p-3">
             <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             All Category
@@ -116,11 +116,12 @@ const Navbars= () => {
             <li><a className="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+        <Stack direction="horizontal" gap={3}>
         <h1><span><FaAdjust/>track order</span></h1>
         <h2><span><FaCompressArrowsAlt />Compared</span></h2>
         <h3><span><MdOutlinePhoneCallback />customer support</span></h3>
         <h4><span><FaHotel/>need help</span></h4>
-        
+        </Stack>
             </Nav>
             <span> <MdOutlineAddIcCall />09154040945</span>
             

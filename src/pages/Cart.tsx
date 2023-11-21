@@ -1,8 +1,14 @@
 
 
+
+
+
 const Cart = () => {
   return (
-    <div className="cart">CartItem</div>
+    <div className="cart">
+      <h1>Cartvvvv</h1>
+
+    </div>
   )
 }
 

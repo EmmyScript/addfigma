@@ -8,7 +8,7 @@ export const User = () => {
     <>
     <div className="user">User</div>
     <div className="col-md-2">
-      <h2>rtrtrt</h2>
+      <h2>users</h2>
     </div>
     <Row md={2} xs={1} xl={3} className="g-3">
       {userItems.map(item => (

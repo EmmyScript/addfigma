@@ -2,7 +2,7 @@ import {VscRemove } from "react-icons/vsc"
 
 export const Category = () => {
   return (
-    <div className="col-md-2 mt-4">
+    <div className="col-md-2 mt-3">
     <div className="form-check">
   <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
   <label className="form-check-label" htmlFor="flexRadioDefault1">
