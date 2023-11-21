@@ -116,7 +116,7 @@ const Navbars= () => {
             <li><a className="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
-        <Stack direction="horizontal" gap={3}>
+        <Stack direction="horizontal" gap={1}>
         <h1><span><FaAdjust/>track order</span></h1>
         <h2><span><FaCompressArrowsAlt />Compared</span></h2>
         <h3><span><MdOutlinePhoneCallback />customer support</span></h3>
