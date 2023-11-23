@@ -10,7 +10,7 @@ const ShoppingCart = () => {
     <>
     <div className=" shopping col-md-2 mt-4">
     <h1 className="shop-title">Categorys </h1>
-    <span className=" electronics  "><FcElectronics />Electronic device</span>
+    <span className=" electronics  "><FcElectronics />Electronic device</span> 
  <Category/>
 </div>
 

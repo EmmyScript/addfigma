@@ -11,7 +11,7 @@ const Navbars= () => {
   return (
   
 <div className="container-fluiid " >
-    <Row  className =" nav-item" >
+    <Row  className =" nav-item " >
 
 <div className=" all-nav p-3 col-md-4">
 <a className="  electronics navbar-brand text-white" href="#"><FaSatelliteDish /> JOBBER </a>
@@ -29,12 +29,12 @@ const Navbars= () => {
 <span><FaPinterest/></span>
 <span><FaUber/></span>
 
-<span><FaInstagram/></span>
+<span><FaInstagram /></span>
 </Stack>
 
 
-        <div className=" dropdown  d-flex ">
-    <h1>Eng:</h1>
+        <div className="p-2 dropdown  d-flex ">
+    <h1 className="p-1">Eng:</h1>
           
     
 <select className="form-select">
@@ -45,8 +45,8 @@ const Navbars= () => {
     <option defaultValue= {" "}>age</option>
 </select>
     </div>
-        <div className=" dropdown d-flex ">
-    <h2>Usd:</h2>
+        <div className="p-2 dropdown d-flex ">
+    <h2 className="p-1">Usd: </h2>
           
     
 <select className="form-select">
@@ -118,7 +118,7 @@ const Navbars= () => {
         </li>
         <Stack direction="horizontal" gap={1}>
         <h1><span><FaAdjust/>track order</span></h1>
-        <h2><span><FaCompressArrowsAlt />Compared</span></h2>
+        <h2><span><FaCompressArrowsAlt />Compared item</span></h2>
         <h3><span><MdOutlinePhoneCallback />customer support</span></h3>
         <h4><span><FaHotel/>need help</span></h4>
         </Stack>
