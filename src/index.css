@@ -9,23 +9,9 @@
     flex-wrap: wrap;
 }
 
-.nav-itemsw{
-    white-space: wrap;
-    width: 100%;
-    
-    flex-wrap: wrap;
-    overflow-wrap: break-word;
-    outline: none;
-    overflow: hidden;
 
-}
+    
 
-.electronicss{
-    
-    color:white;
-    font-size: 1em;
-    
-}
 .all-item{
       
     flex-wrap: wrap;
@@ -44,4 +30,15 @@
 .volume{
     font-size:5em;
     color: greenyellow;
+}
+.track{
+   font-size: 1.5rem;
+    
+}
+.found{
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    white-space: wrap;
+    
 }
