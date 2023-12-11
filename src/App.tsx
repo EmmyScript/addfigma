@@ -12,16 +12,17 @@ import Home from "./components/Home"
 
 
 
+
+
 const App = () => {
   
   
   return (
     <>
+    <Home/>
     <div className="container-fluid ">
 <Row className=" all-item">
-  
-  
-  <Home/>
+
   
       
       <Routes>

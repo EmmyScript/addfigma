@@ -42,3 +42,50 @@
     white-space: wrap;
     
 }
+
+/*404 style */
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.description h3 {
+font-size: 35px;
+word-spacing: 2px;
+font-weight: 400;
+
+}
+.description p{
+    font-size: 20px;
+    line-height: i.6em;
+    margin: 35px 0;
+    padding-right: 40px;
+    
+}
+.btn-page{
+    padding: 16px, 15px;
+    font: size 14px; 
+    background: rgb(46, 46, 77);
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.img{
+    max-width: 530px;
+    height: auto;
+}
+
+.portfolios{
+    background-color: aqua;
+    width: 50%;
+    margin: 50%;
+}
